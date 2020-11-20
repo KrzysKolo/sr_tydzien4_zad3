@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-wrapper {
+  margin: 3rem auto;
+  width: 600px;
+  background-color: red;
+  border: 2px solid black;
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  margin: 3rem auto;
+  width: 350px;
+  background-color: rgb(235, 231, 232);
+  border: 2px solid rgb(155, 155, 155);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(155, 155, 155);
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.5rem;
+  justify-content: center;
+}
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 300px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4285;
+  color: #555;
+  margin: 5px 0;
+}
+.error {
+  color: red;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+}
+.statute {
+  border: 2px solid rgb(170, 169, 169);
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 3px rgb(181, 177, 178);
+  background: #ffffff;
+  height: 130px;
+  width: 300px;
+  padding: 10px;
+  overflow: auto;
+  margin: 0 auto;
+}
+.btn-send {
+  background-color: rgba(211, 19, 137, 1);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem auto;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-send:hover {
+  background-color: rgba(211, 19, 137, 0.5);
+}
+.header {
+  color: rgba(211, 19, 137, 1);
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(204, 201, 204);
+  padding: 0.75rem;
+  box-shadow: 3px 0 5px rgb(204, 201, 204);
+}
+.header h2 {
+  font-size: 1.25rem;
+}
